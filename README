@@ -1,0 +1,11 @@
+Description: 
+simeple nodejs server with shared data read/write on server side
+
+Setup:
+node.js runtime
+>npm install
+>npm start
+>localhost:5566     :mainpage
+>/write?data=value  :write data to server side
+>/read              :read all written data in this server runtime
+
